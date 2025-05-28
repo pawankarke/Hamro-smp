@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+* {
+    background-color: rgb(22, 22, 22);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav#navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif; 
+}
+
+nav#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif; 
+}
+
+nav#navbar li {
+    margin: 0;
+    padding: 10px;
+    font-size: 100%;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif; 
+}
+
+nav#navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif; 
+}
+
+/* Add the specific selector for Discord links */
+nav#navbar a[href*="discord.com"],
+.ruleslist li a[href*="discord.com"] {
+    color: #00ff00; /* Green color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+    color: rgb(0, 255, 17);
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+strong {
+    font-weight: bold;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(164, 164, 164);
+}
+
+li {
+    margin-top: 10px;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(164, 164, 164);
+}
+
+.ruleslist {
+    margin-top: 30px;
+    font-weight: bold;
+}
